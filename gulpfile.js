@@ -8,7 +8,7 @@ gulp.task('commit', function(done) {
           `production deploy: ${new Date(Date.now()).toLocaleString()}`));
 });
 
-gulp.task('push', function() {
+gulp.task('push', function(done) {
   return git.push('origin', 'master', function(err) {
     if (err) throw err;
     done();
