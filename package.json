@@ -1,0 +1,13 @@
+{
+  "name": "dsharrison.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.7.0"
+  }
+}
